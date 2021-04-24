@@ -9,21 +9,21 @@ import React from "react";
 
  */
 const useFetch = () => {
-  const [response, setResponse] = React.useState([]);
+  const [response, setResponse] = React.useState(null);
 
   const [error, setError] = React.useState(null);
 
-  const [isLoading, setIsLoading] = React.useState(false);
+  const [isLoading, setIsLoading] = React.useState(true);
 
   React.useEffect(() => {
     const fetchData = async () => {
       setIsLoading(true);
 
       try {
-        
-        const res = await fetch(`http://us-central1-cm-devops-294019.cloudfunctions.net/status`);
+        const res = await fetch(
+          `http://us-central1-cm-devops-294019.cloudfunctions.net/status`
+        );
         const json = await res.json();
-
         setResponse(json);
         setError(null);
         setIsLoading(false);
@@ -34,7 +34,9 @@ const useFetch = () => {
       }
     };
 
+    const interval = setInterval(fetchData, 120*1000);
     fetchData();
+    return () => clearInterval(interval);
     //timeinterval
   }, []);
 

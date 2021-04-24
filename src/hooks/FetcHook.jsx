@@ -1,4 +1,5 @@
 import React from "react";
+
 /**
  * Custom hook for fetching data
  * @param {string} url - Url to fetch
@@ -19,8 +20,8 @@ const useFetch = (url, options, initialValue) => {
       setIsLoading(true);
 
       try {
-        const res = await fetch(`${Config.baseUrl}${url}`, options);
-        const res = await fetch(`https://us-central1-cm-devops-294019.cloudfunctions.net/status/${path}`, options);
+        
+        const res = await fetch(`http://us-central1-cm-devops-294019.cloudfunctions.net/status/`, options);
         const json = await res.json();
 
         setResponse(json);

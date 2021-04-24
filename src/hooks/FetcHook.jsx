@@ -8,8 +8,8 @@ import React from "react";
  * @example
 
  */
-const useFetch = (url, options, initialValue) => {
-  const [response, setResponse] = React.useState(initialValue);
+const useFetch = () => {
+  const [response, setResponse] = React.useState([]);
 
   const [error, setError] = React.useState(null);
 
@@ -21,7 +21,7 @@ const useFetch = (url, options, initialValue) => {
 
       try {
         
-        const res = await fetch(`http://us-central1-cm-devops-294019.cloudfunctions.net/status/`, options);
+        const res = await fetch(`https://us-central1-cm-devops-294019.cloudfunctions.net/status`);
         const json = await res.json();
 
         setResponse(json);

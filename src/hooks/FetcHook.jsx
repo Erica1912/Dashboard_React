@@ -21,7 +21,7 @@ const useFetch = () => {
 
       try {
         
-        const res = await fetch(`https://us-central1-cm-devops-294019.cloudfunctions.net/status`);
+        const res = await fetch(`http://us-central1-cm-devops-294019.cloudfunctions.net/status`);
         const json = await res.json();
 
         setResponse(json);

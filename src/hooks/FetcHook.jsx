@@ -1,5 +1,4 @@
 import React from "react";
-import Config from "../config";
 /**
  * Custom hook for fetching data
  * @param {string} url - Url to fetch
@@ -21,7 +20,7 @@ const useFetch = (url, options, initialValue) => {
 
       try {
         const res = await fetch(`${Config.baseUrl}${url}`, options);
-
+        const res = await fetch(`https://us-central1-cm-devops-294019.cloudfunctions.net/status/${path}`, options);
         const json = await res.json();
 
         setResponse(json);

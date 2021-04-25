@@ -1,0 +1,62 @@
+.principal-statusbar {
+    margin:auto;
+    margin-top: 0px;
+    display: inline;
+   
+}
+
+.info {
+    background-color: white;
+    width: 750px;
+    height: 150px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    
+    
+}
+.app{
+    height: 15px;
+    text-align: left;
+    margin:auto;
+    margin-top: 15px;
+    color: dimgray;
+    font-weight: bold;
+    background-color: forestgreen;
+}
+.status{
+    text-align: right;
+}
+
+
+.menor{
+   
+    background-color:  #DDDDDD;
+    width: 11px;
+    height: 40px;
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 5px
+    
+}
+
+.entre{
+    
+    background-color: #D6C756;
+    width: 11px;
+    height: 40px;
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 5px
+    
+}
+
+.mayor{
+    width: 11px;
+    height: 40px;
+    background-color: #56C2D6;
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 5px
+    
+}

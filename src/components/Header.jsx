@@ -1,6 +1,6 @@
 import React from "react";
 import Principal from '../img/coordinadora-principal.png'
-import '../App.css';
+import '../asset/Header.css';
 
 const Header = ()=>{
     const h= new Date();
@@ -9,7 +9,7 @@ const Header = ()=>{
 
 
     return (
-        <div>
+        <div className="inicio">
             <img src={Principal} alt="Principal" className="imagen-principal"  />
             <div className="principal">
                 <div className="texto-principal">

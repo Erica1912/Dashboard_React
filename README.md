@@ -18,10 +18,10 @@ Implementación una dashboard que monitora el status de cada  servicio por día
 - El servicio se encuentra construido como:
 
   ``` 
-      objeto {} -> array [] -> {}  
+      objeto {} -> array [] -> objeto{}  
   
   ```
-
+- Es necesario identificar esta estructura para posterior realizar las destructuración necesaria del servicio
 
 
 *Erica Ruiz*

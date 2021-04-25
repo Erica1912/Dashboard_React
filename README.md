@@ -41,5 +41,8 @@ Esto permite tener limpio el codigo y la lógica del proyecto
   ```
 - Es necesario identificar esta estructura para posterior realizar las destructuración necesaria del servicio
 
+***Para la actualización de la página***
+
+- Utilizamos la función setInterval() dentro de archivo *FetcHook.jsx* 
 
 *Erica Ruiz*

@@ -1,4 +1,6 @@
 # Dashboard React
+[![React app deployement](https://github.com/Erica1912/dashboard_react/actions/workflows/node.js.yml/badge.svg)](https://github.com/Erica1912/dashboard_react/actions/workflows/node.js.yml)
+
 Implementación una dashboard que monitorea el status de cada  servicio por día
 
 ***Instaladores***

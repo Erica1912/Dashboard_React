@@ -43,6 +43,6 @@ Esto permite tener limpio el codigo y la lógica del proyecto
 
 ***Para la actualización de la página***
 
-- Utilizamos la función setInterval() dentro de archivo *FetcHook.jsx* 
+- Utilizamos la función *setInterval()* dentro de archivo *FetcHook.jsx* 
 
 *Erica Ruiz*

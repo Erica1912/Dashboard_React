@@ -1,8 +1,8 @@
 .principal-statusbar {
-    margin:auto;
+    margin: auto;
     margin-top: 0px;
     display: inline;
-   
+
 }
 
 .info {
@@ -10,53 +10,105 @@
     width: 750px;
     height: 150px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 60px;
+}
+
+.titulos_status {
+    
+    height: 25px;
+    width: 100%;
+    margin: 0px;
+    margin-top: 20px;
     display: flex;
-    
-    
 }
-.app{
-    height: 15px;
-    text-align: left;
-    margin:auto;
-    margin-top: 15px;
-    color: dimgray;
+
+.texto-info {
+    
+    height: 25px;
+    margin: 0%;
+    width: 100px;
+    margin-left: 20px;
+    color: #777070;
     font-weight: bold;
-    background-color: forestgreen;
 }
-.status{
-    text-align: right;
+
+.status {
+    
+    height: 25px;
+    width: 100px;
+    margin-left: auto;
+    color: #777070;
+    font-weight: bold;
+}
+
+.principal-bar {
+
+    height: 25px;
+    width: 95%;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
 }
 
 
-.menor{
-   
-    background-color:  #DDDDDD;
+.menor {
+
+    background-color: #DDDDDD;
     width: 11px;
     height: 40px;
     margin: auto;
     margin-left: 10px;
     margin-right: 5px
-    
 }
 
-.entre{
-    
+.entre {
+
     background-color: #D6C756;
     width: 11px;
     height: 40px;
     margin: auto;
     margin-left: 10px;
     margin-right: 5px
-    
 }
 
-.mayor{
+.mayor {
     width: 11px;
     height: 40px;
     background-color: #56C2D6;
     margin: auto;
     margin-left: 10px;
     margin-right: 5px
+}
+
+.principal-porcentaje{
     
+    height: 25px;
+    width: 95%;
+    margin: 0px;
+    margin-left: 15px;
+    margin-top: 20px;
+    display: flex;
+    
+
+}
+
+.porcentaje{
+    
+    height: 25px;
+    width: 100px;    
+    color: #777070;
+    font-weight: bold; 
+    margin-left: 5px;
+}
+.dia{
+    width: 80px;
+    
+    color: #777070;
+    font-weight: bold;
+    margin-left: auto;
+}
+
+.overall{
+    background-color: #0072BC;
+    height: 250px;
 }

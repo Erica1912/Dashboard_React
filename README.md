@@ -1,5 +1,5 @@
 # Dashboard React
-Implementación una dashboard que monitora el status de cada  servicio por día
+Implementación una dashboard que monitorea el status de cada  servicio por día
 
 ***Instaladores***
 - Instalación del proyecto React  
@@ -29,7 +29,7 @@ Esto permite tener limpio el codigo y la lógica del proyecto
 
 
 ***Consulta de servicio***
-- Se Consume el servicio de [Servicio](https://us-central1-cm-devops-294019.cloudfunctions.net/status)
+- Se consume el servicio de [Servicio](https://us-central1-cm-devops-294019.cloudfunctions.net/status)
 - En caso de tener dificultades con el cors se recomienda instalar [Plugin_Cors](https://chrome.google.com/webstore/detail/local-cors/bhachhlaofmplbfnefenmlnflolelkff?hl=en)
 
 *Nota importante sobre el servicio*

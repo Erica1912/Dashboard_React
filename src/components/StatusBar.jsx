@@ -1,15 +1,9 @@
 import React from "react";
 import "../asset/StatusBar.css";
 
-const StatusBar = (api) => {
-  const [{ days, title, current_status }] = Object.values(api.value);
-  let contador = 0;
-  let porcentaje=0
-  for (let i = 0; i < days.length; i++) {
-    contador = days[i]+contador;     
-  }
-  porcentaje = Math.round(contador/30)
-  
+const StatusBar = (props) => {
+  const { days, title, current_status, average } = props.values;
+
   return (
     <div className="principal-statusbar">
       <div className="info">
@@ -18,24 +12,22 @@ const StatusBar = (api) => {
           <div className="status">{current_status}</div>
         </div>
         <div className="principal-bar">
-          {days.map((day) => {
+          {days.map((day,i) => {
             if (day <= 60) {
-              return <div className="menor"></div>;
+              return <div className="menor" key={i} title={day}></div>;
             }
-            if (day > 60 && day < 80) {
-              return <div className="entre"></div>;
-            }
-            if (day > 80) {
-              return <div className="mayor"></div>;
-            }
+            if (day < 80) {
+              return <div className="entre" key={i} title={day}></div>;
+            }            
+            return <div className="mayor" key={i} title={day}></div>;
+           
           })}
         </div>
         <div className="principal-porcentaje">
-          <div className="porcentaje">{porcentaje} %</div>
+          <div className="porcentaje">{average} %</div>
           <div className="dia">Today</div>
         </div>
       </div>
-      
     </div>
   );
 };

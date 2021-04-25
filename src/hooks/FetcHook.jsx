@@ -1,4 +1,5 @@
 import React from "react";
+import ResponseAdapter from '../adapters/ResponseAdapter'
 
 /**
  * Custom hook for fetching data
@@ -24,7 +25,7 @@ const useFetch = () => {
           `http://us-central1-cm-devops-294019.cloudfunctions.net/status`
         );
         const json = await res.json();
-        setResponse(json);
+        setResponse(ResponseAdapter.FactoryAll(json));
         setError(null);
         setIsLoading(false);
       } catch (error) {

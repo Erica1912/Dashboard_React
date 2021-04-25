@@ -2,8 +2,17 @@
 Implementación una dashboard que monitora el status de cada  servicio por día
 
 ***Instaladores***
+- Instalación del proyecto React  
+    ``` 
+      create-react-app NombreDeMiProyecto 
+     
+     ```
 
-- Para el manejo de las rutas en React se instala    ```npm install react-router-dom```
+- Para el manejo de las rutas en React se instala    
+  ```
+    npm install react-router-dom
+   
+   ```
 
 ***Frontend React / Hooks***
 

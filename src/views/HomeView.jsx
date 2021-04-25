@@ -1,6 +1,7 @@
 import React from "react";
 import useFetch from "../hooks/FetcHook";
-import StatusBar from '../components/StatusBar';
+import StatusBar from "../components/StatusBar";
+import Header from "../components/Header";
 
 const HomeView = () => {
   const { response, error, isLoading } = useFetch();
@@ -10,15 +11,15 @@ const HomeView = () => {
   if (error) {
     return <h1>{error.toString()}</h1>;
   }
-  console.log(response)
+  console.log(response);
   return (
     <div>
+      <Header />
       {response.status.apis.map((api) => (
         <StatusBar value={api} />
       ))}
     </div>
   );
-
 };
 
 export default HomeView;

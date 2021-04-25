@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.imagen-principal {
+  margin: 21px;
+}
+
+.principal {
+  background-color: #0072BC;
+  display: table;
+  height: 200px;
+  height: 60px;
+  color: white;
+  align-items: center;
+ 
+  width: 100%;
+}
+
+.texto {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.texto-principal {
+  font-weight: bold;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  border: 1px solid #d0d0d0;
+}

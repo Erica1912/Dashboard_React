@@ -1,6 +1,14 @@
 import React from "react";
 import "../asset/Overall.css";
 
+/**
+ * Overall component
+ * 
+ * @author Erica Ruiz <eri.ruiz@hotmail.com> 
+ * 
+ * @param {React.ComponentProps} props of the Overall
+ * @returns {JSX.Element} Overall
+ */
 const Overall = (props) => {
   const {  average24h, average7d, average30d } = props.values;
   

@@ -1,6 +1,15 @@
 import React from "react";
 import "../asset/StatusBar.css";
 
+/**
+ * StatusBar component
+ * 
+ * @author Erica Ruiz <eri.ruiz@hotmail.com>
+ *
+ * @class
+ * @param {React.ComponentProps} props of the StatusBar
+ * @returns {JSX.Element} StatusBar
+ */
 const StatusBar = (props) => {
   const { days, title, current_status, average } = props.values;
 
@@ -19,8 +28,7 @@ const StatusBar = (props) => {
             if (day < 80) {
               return <div className="entre" key={i} title={day}></div>;
             }            
-            return <div className="mayor" key={i} title={day}></div>;
-           
+            return <div className="mayor" key={i} title={day}></div>;           
           })}
         </div>
         <div className="principal-porcentaje">

@@ -22,7 +22,7 @@ const useFetch = () => {
 
       try {
         const res = await fetch(
-          `http://us-central1-cm-devops-294019.cloudfunctions.net/status`
+          `${window.protocol}://us-central1-cm-devops-294019.cloudfunctions.net/status`
         );
         const json = await res.json();
         setResponse(ResponseAdapter.FactoryAll(json));

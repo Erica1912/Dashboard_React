@@ -7,7 +7,7 @@ Implementación una dashboard que monitora el status de cada  servicio por día
 
 ***Frontend React / Hooks***
 
-- Uso de custom hooks, useState
+- Uso de custom hooks, useState, useEffect
 
 
 ***Consulta de servicio***
@@ -16,7 +16,11 @@ Implementación una dashboard que monitora el status de cada  servicio por día
 
 *Nota importante sobre el servicio*
 - El servicio se encuentra construido como:
+
+  ``` 
+      objeto {} -> array [] -> {}  
   
+  ```
 
 
 

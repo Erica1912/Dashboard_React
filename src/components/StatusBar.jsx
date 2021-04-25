@@ -4,9 +4,8 @@ import "../asset/StatusBar.css";
 /**
  * StatusBar component
  * 
- * @author Erica Ruiz <eri.ruiz@hotmail.com>
- *
- * @class
+ * @author Erica Ruiz <eri.ruiz@hotmail.com> 
+ * 
  * @param {React.ComponentProps} props of the StatusBar
  * @returns {JSX.Element} StatusBar
  */

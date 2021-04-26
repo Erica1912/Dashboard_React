@@ -47,4 +47,10 @@ Esto permite tener limpio el codigo y la lógica del proyecto
 
 - Utilizamos la función *setInterval()* dentro de archivo *FetcHook.jsx* esto permite actualizar la página cada 2 minutos
 
+
+***Git Action***
+- Para generar el building  [Building](https://github.com/Erica1912/dashboard_react/actions) del dashboard uso los action de git
+- Page Git, url de la publicación  [Dashboard](https://erica1912.github.io/dashboard_react/)
+
+
 *Erica Ruiz*

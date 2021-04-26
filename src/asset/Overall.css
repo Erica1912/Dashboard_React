@@ -21,7 +21,7 @@
 }
 
 .overall-datos {
-    
+
     align-content: center;
     height: 40px;
     width: 250px;
@@ -29,11 +29,9 @@
     font-weight: bold;
     margin: auto;
     margin-top: 25px;
-    
-
 }
 
-.overall-p { 
-    margin: auto;    
+.overall-p {
+    margin: auto;
     font-size: 12px;
-  }
+}

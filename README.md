@@ -49,7 +49,7 @@ Esto permite tener limpio el codigo y la lógica del proyecto
 
 
 ***Git Action***
-- Para generar el building  [Building](https://github.com/Erica1912/dashboard_react/actions) del dashboard uso los action de git
+- Para generar [Building](https://github.com/Erica1912/dashboard_react/actions) del dashboard uso los action de git
 - Page Git, url de la publicación  [Dashboard](https://erica1912.github.io/dashboard_react/)
 
 
